@@ -5,8 +5,9 @@ int main() {
     int* ptr = new int;
     *ptr = 42;     
     cout << "number: " << *ptr << endl;
-
+    
+    ptr = nullptr; 
     delete ptr;       
-    ptr = nullptr;    
+       
     return 0;
 }
